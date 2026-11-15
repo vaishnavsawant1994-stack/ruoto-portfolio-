@@ -1,0 +1,24 @@
+name: Source checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check client JavaScript
+        run: node --check app.js
+      - name: Check API JavaScript
+        run: node --check api/submit.js
+      - name: Node test suite
+        run: node --test tests/*.test.cjs
