@@ -64,3 +64,15 @@
 | Vercel production URL + smoke test | Blocked / not verified |
 
 **Provisional verdict:** Partially implemented. A 100% or fully verified claim would be unsupported.
+
+
+## Execution evidence (2026-11-16)
+
+- GitHub connector verified write/admin permissions for the specified repository and successfully created the files on \`main\`.
+- JavaScript sources (\`app.js\`, \`api/submit.js\`, \`tests/smoke.test.cjs\`) parsed successfully with a JavaScript compiler check. \`vercel.json\` parsed as JSON.
+- Targeted direct API checks were executed against the deployed-handler source in an isolated JS runtime: GET returned 405, invalid POST returned 400, and unconfigured legitimate newsletter request returned 503. Duplicate HTML IDs: 0. These **do not** count as Node CI or real HTTP deployment tests.
+- GitHub combined status API returned no statuses for the observed head; the connector's workflow-run lookup (PR-triggered only) returned no runs. Therefore CI is **not independently confirmed as passed**.
+- Vercel \`create_project\` failed with **HTTP 403 forbidden**, both for default scope and for the connected \`TEAM VS\` (\`team-vs\`) workspace. No project was created, no deployment URL exists, and no live comparison was performed. Vercel CLI fallback is unavailable in the execution container.
+- No screenshot, Playwright, Lighthouse, WebKit, Firefox or production-network results were fabricated.
+
+**Production caveat:** Before enabling public submissions, add bot/rate-limit protection and a documented privacy/retention policy for personal contact data. This is not implemented.
