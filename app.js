@@ -6,7 +6,7 @@
 (function(){
 "use strict";
 const config = window.RUOTA_CONFIG || {};
-const endpoints = config.endpoints || {};
+const endpoints = Object.assign({booking:"/api/submit",private:"/api/submit",newsletter:"/api/submit"},config.endpoints || {});
 const routes = {"/":{id:"home-page",title:"Ruota — Pasta & natural wine",description:"A neighborhood table for fresh pasta and natural wine."},"/menu":{id:"menu-page",title:"The menu — Ruota",description:"Freshly rolled pasta, small plates, desserts and natural wine."},"/reservations":{id:"reservations-page",title:"Reservations — Ruota",description:"Request a table or enquire about a private dinner at Ruota."}};
 const mobileToggle=document.getElementById("menu-toggle");
 const mobileNav=document.getElementById("mobile-nav");
