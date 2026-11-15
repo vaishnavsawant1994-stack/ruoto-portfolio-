@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f3eddf" />
+  <meta name="description" content="Ruota — a neighborhood pasta and natural wine restaurant. Explore the menu, our kitchen story and table enquiries." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Ruota — Pasta & natural wine" />
+  <meta property="og:description" content="A neighborhood table for hand-rolled pasta and natural wine." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght,SOFT,WONK@9..144,400,0,1;9..144,500,0,1;9..144,600,0,1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+  <title>Ruota — Pasta & natural wine</title>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <svg class="svg-library" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="dish-icon" viewBox="0 0 500 500">
+      <ellipse cx="250" cy="265" rx="232" ry="210" fill="#ddc8aa" opacity=".24"/>
+      <circle cx="250" cy="242" r="218" fill="#f8f3e8" stroke="#b8a58d" stroke-width="5"/>
+      <circle cx="250" cy="242" r="193" fill="none" stroke="#e1d8c7" stroke-width="12"/>
+      <circle cx="250" cy="242" r="164" fill="#efe5cf" stroke="#dfd1bb" stroke-width="3"/>
+      <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M145 194C200 125 324 180 297 225S165 288 204 323s145-21 162-82-68-136-152-72 20 140 91 77" stroke="#c98c41" stroke-width="17"/>
+        <path d="M171 245c-10-80 131-112 172-49s-92 131-143 90 52-104 114-64-10 112-102 82" stroke="#e9bb6b" stroke-width="16"/>
+        <path d="M176 175c80-54 177 33 129 77s-158 3-110 65 136-8 140-56" stroke="#f0cb88" stroke-width="14"/>
+        <path d="M177 279c67 70 174-14 138-84s-153-14-121 52 112 66 146 13" stroke="#d8a054" stroke-width="13"/>
+      </g>
+      <g fill="#526c3e">
+        <ellipse cx="193" cy="185" rx="10" ry="24" transform="rotate(-39 193 185)"/>
+        <ellipse cx="315" cy="308" rx="10" ry="23" transform="rotate(45 315 308)"/>
+        <ellipse cx="284" cy="163" rx="11" ry="23" transform="rotate(68 284 163)"/>
+      </g>
+      <g fill="#74402a"><circle cx="184" cy="228" r="4"/><circle cx="303" cy="242" r="5"/><circle cx="254" cy="305" r="4"/><circle cx="235" cy="174" r="3"/><circle cx="343" cy="232" r="4"/></g>
+    </symbol>
+  </svg>
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a class="brand" href="/" aria-label="Ruota home">ruota<span aria-hidden="true">●</span></a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="/menu">Menu</a><a href="/#story">Story</a><a href="/#wine">Wine</a><a href="/reservations#private">Private dining</a><a href="/#visit">Visit</a>
+      </nav>
+      <a class="pill-button pill-button--small header-book" href="/reservations">Book a table <span aria-hidden="true">↗</span></a>
+      <button type="button" class="mobile-menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="/menu">Menu</a><a href="/#story">Story</a><a href="/#wine">Wine</a><a href="/reservations#private">Private dining</a><a href="/#visit">Visit</a><a href="/reservations">Book a table ↗</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="home-page" data-page="/" class="page">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-brow eyebrow">Fresh pasta &amp; natural wine · Made for long evenings</div>
+        <div class="hero-wordmark" aria-label="ruota">
+          <span>ru</span>
+          <div class="hero-plate-wrap">
+            <svg class="hero-plate" viewBox="0 0 500 500" role="img" aria-label="Original illustrated plate of handmade pasta"><use href="#dish-icon"/></svg>
+            <span class="plate-orbit orbit-one" aria-hidden="true">rolled daily</span>
+          </div>
+          <span>ta</span>
+        </div>
+        <div class="hero-bottom">
+          <p>Rolled in the morning.<br/>Shared around the table at night.</p>
+          <div class="hero-actions"><a class="pill-button" href="/reservations">Book a table <span aria-hidden="true">↗</span></a><a class="text-link" href="/menu">Explore the menu <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <div class="hero-scroll-note eyebrow">Scroll to explore <span aria-hidden="true">↓</span></div>
+      </section>
+
+      <section class="story-section section-pad" id="story" aria-labelledby="story-title">
+        <div class="section-label"><span class="dot"></span> The morning</div>
+        <div class="story-grid">
+          <h1 class="display-heading reveal" id="story-title">A little flour.<br/>A lot of <em>love.</em></h1>
+          <div class="story-copy reveal"><p>Every day begins with fresh dough, four familiar shapes, and the rhythm of a wooden table. We make just enough for the day and let the ingredients do the talking.</p><a href="/menu" class="text-link">Discover what's cooking <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <div class="stats-grid" aria-label="A morning at Ruota">
+          <div class="stat"><strong class="stat-number" data-counter="6" data-suffix="am">6am</strong><span>First dough</span></div>
+          <div class="stat"><strong class="stat-number" data-counter="4">4</strong><span>Shapes each day</span></div>
+          <div class="stat"><strong class="stat-number" data-counter="32">32</strong><span>Seats at the table</span></div>
+        </div>
+      </section>
+
+      <section class="pasta-section section-pad" id="pasta" aria-labelledby="pasta-title">
+        <div class="section-label"><span class="dot"></span> The daily ritual</div>
+        <div class="section-heading-row">
+          <div><h2 class="display-heading reveal" id="pasta-title">Today's <em>pasta.</em></h2><p>Four fresh shapes. A new reason to come back tomorrow.</p></div>
+          <a class="pill-button pill-button--outline" href="/menu">Full menu <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="dish-stack">
+          <article class="feature-dish dish-pepper">
+            <div class="feature-dish-visual"><svg viewBox="0 0 500 500" role="img" aria-label="Illustration of fresh tonnarelli pasta"><use href="#dish-icon"/></svg></div>
+            <div class="feature-dish-copy"><div class="eyebrow">01 / Rolled at 6:10</div><h3>Cacio e pepe</h3><p>Tonnarelli, pecorino, black pepper.</p><span class="price">14</span></div>
+          </article>
+          <article class="feature-dish dish-ragu">
+            <div class="feature-dish-visual"><svg viewBox="0 0 500 500" role="img" aria-label="Illustration of a plate of pasta"><use href="#dish-icon"/></svg></div>
+            <div class="feature-dish-copy"><div class="eyebrow">02 / Rolled at 6:40</div><h3>Tagliatelle al ragù</h3><p>Fresh ribbons and slow-cooked ragù.</p><span class="price">17</span></div>
+          </article>
+          <article class="feature-dish dish-ravioli">
+            <div class="feature-dish-visual"><svg viewBox="0 0 500 500" role="img" aria-label="Illustration of a pasta dish"><use href="#dish-icon"/></svg></div>
+            <div class="feature-dish-copy"><div class="eyebrow">03 / Rolled at 7:05</div><h3>Ravioli burro e salvia</h3><p>Ricotta, lemon, sage and browned butter.</p><span class="price">16</span></div>
+          </article>
+          <article class="feature-dish dish-pomodoro">
+            <div class="feature-dish-visual"><svg viewBox="0 0 500 500" role="img" aria-label="Illustration of spaghetti"><use href="#dish-icon"/></svg></div>
+            <div class="feature-dish-copy"><div class="eyebrow">04 / Rolled at 7:30</div><h3>Spaghetti al pomodoro</h3><p>Tomatoes, basil and olive oil.</p><span class="price">13</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="wine-section section-pad" id="wine" aria-labelledby="wine-title">
+        <div class="section-label"><span class="dot"></span> By the glass</div>
+        <div class="wine-grid">
+          <div class="wine-description"><h2 class="display-heading reveal" id="wine-title">Good wine.<br/><em>No rules.</em></h2><p>Small growers, expressive bottles, and something unexpected each week. Just ask what we're pouring.</p></div>
+          <div class="wine-list">
+            <div class="wine-row"><span class="wine-orb orb-orange"></span><div><h3>Orange</h3><small>Friuli · Skin contact</small></div><span>9</span></div>
+            <div class="wine-row"><span class="wine-orb orb-petnat"></span><div><h3>Pét-nat</h3><small>Loire · A little sparkle</small></div><span>10</span></div>
+            <div class="wine-row"><span class="wine-orb orb-red"></span><div><h3>Light red</h3><small>Etna · Served cool</small></div><span>11</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="long-table-section section-pad" aria-labelledby="longtable-title">
+        <div class="long-table-art" role="img" aria-label="Stylized illustration of the long communal table"><span class="lamp lamp-one"></span><span class="lamp lamp-two"></span><span class="table-top"></span><span class="chair chair-one"></span><span class="chair chair-two"></span></div>
+        <div class="long-table-copy"><div class="section-label section-label--light"><span class="dot"></span> Gather round</div><h2 class="display-heading" id="longtable-title">Make room<br/>for <em>everyone.</em></h2><p>Our communal table brings people together for celebrations, good food, and conversations that run late.</p><a class="pill-button pill-button--light" href="/reservations#private">Private dining <span aria-hidden="true">↗</span></a></div>
+      </section>
+
+      <section class="visit-section section-pad" id="visit" aria-labelledby="visit-title">
+        <div class="section-label"><span class="dot"></span> Come hungry</div>
+        <div class="visit-grid">
+          <div><h2 class="display-heading" id="visit-title">See you at<br/><em>the table.</em></h2><p class="address">14 Market Street</p><p class="location-caveat">Illustrative reference address — exact location not verified.</p><a href="/reservations" class="pill-button pill-button--outline">Plan your visit <span aria-hidden="true">↗</span></a></div>
+          <div class="hours-card"><div class="hours-card-top"><h3>Opening hours</h3><span id="opening-status" class="status-pill">Checking hours</span></div>
+            <dl><div><dt>Tuesday – Friday</dt><dd>12–3 pm / 6–11 pm</dd></div><div><dt>Saturday</dt><dd>12–11 pm</dd></div><div><dt>Sunday</dt><dd>12–4 pm</dd></div><div><dt>Monday</dt><dd>Closed</dd></div></dl>
+            <p class="hours-note" id="opening-note">Hours shown are reference sample hours. Set the restaurant time zone before publishing.</p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="menu-page" data-page="/menu" class="page" hidden>
+      <section class="interior-hero section-pad">
+        <span class="section-label"><span class="dot"></span> The menu</span>
+        <h1 class="display-heading">Something for<br/><em>every appetite.</em></h1>
+        <p>Small plates, a handful of daily pasta shapes, something sweet and wine worth sharing.</p>
+        <p class="small-note">Allergies or dietary requirements? Please tell us before ordering.</p>
+        <nav class="menu-tabs" aria-label="Menu categories"><a href="#antipasti">Antipasti ↘</a><a href="#pasta-menu">Pasta ↘</a><a href="#dolci">Dolci ↘</a><a href="#wine-menu">Wine ↘</a></nav>
+      </section>
+      <div class="full-menu-wrap section-pad">
+        <section class="menu-category" id="antipasti"><div class="menu-category-title"><span>01 / To start</span><h2>Antipasti</h2></div><div class="menu-grid">
+          <article class="menu-item"><div class="menu-item-art art-peach" aria-hidden="true"><span></span></div><div><h3>Burrata, peach &amp; fig <b>12</b></h3><p>Fresh fruit, creamy burrata and basil.</p></div></article>
+          <article class="menu-item"><div class="menu-item-art art-bread" aria-hidden="true"><span></span></div><div><h3>Warm focaccia <b>6</b></h3><p>Flaky sea salt and fragrant olive oil.</p></div></article>
+          <article class="menu-item"><div class="menu-item-art art-arancini" aria-hidden="true"><span></span></div><div><h3>Arancini <b>9</b></h3><p>Saffron rice, mozzarella and lemon.</p></div></article>
+        </div></section>
+        <section class="menu-category" id="pasta-menu"><div class="menu-category-title"><span>02 / Made each morning</span><h2>Pasta</h2></div><div class="menu-grid">
+          <article class="menu-item"><div class="menu-item-art art-pasta" aria-hidden="true"><svg viewBox="0 0 500 500"><use href="#dish-icon"/></svg></div><div><h3>Cacio e pepe <b>14</b></h3><p>Tonnarelli, pecorino and black pepper.</p></div></article>
+          <article class="menu-item"><div class="menu-item-art art-pasta art-ragu" aria-hidden="true"><svg viewBox="0 0 500 500"><use href="#dish-icon"/></svg></div><div><h3>Tagliatelle al ragù <b>17</b></h3><p>Slow-cooked beef and pork sauce.</p></div></article>
+          <article class="menu-item"><div class="menu-item-art art-pasta art-ravioli" aria-hidden="true"><svg viewBox="0 0 500 500"><use href="#dish-icon"/></svg></div><div><h3>Ravioli burro e salvia <b>16</b></h3><p>Lemon ricotta, brown butter and sage.</p></div></article>
+          <article class="menu-item"><div class="menu-item-art art-pasta art-tomato" aria-hidden="true"><svg viewBox="0 0 500 500"><use href="#dish-icon"/></svg></div><div><h3>Spaghetti al pomodoro <b>13</b></h3><p>Tomatoes, basil and olive oil.</p></div></article>
+          <article class="menu-item"><div class="menu-item-art art-pasta" aria-hidden="true"><svg viewBox="0 0 500 500"><use href="#dish-icon"/></svg></div><div><h3>Trofie al pesto <b>15</b></h3><p>Basil, green beans and pine nuts.</p></div></article>
+          <article class="menu-item"><div class="menu-item-art art-pasta art-tomato" aria-hidden="true"><svg viewBox="0 0 500 500"><use href="#dish-icon"/></svg></div><div><h3>Penne all'arrabbiata <b>12</b></h3><p>Tomato, garlic, chili and parsley.</p></div></article>
+        </div></section>
+        <section class="menu-category" id="dolci"><div class="menu-category-title"><span>03 / Something sweet</span><h2>Dolci</h2></div><div class="menu-grid">
+          <article class="menu-item"><div class="menu-item-art art-sweet" aria-hidden="true"><span></span></div><div><h3>Panna cotta <b>8</b></h3><p>Vanilla cream and a seasonal garnish.</p></div></article>
+          <article class="menu-item"><div class="menu-item-art art-honey" aria-hidden="true"><span></span></div><div><h3>Ricotta, honey, walnuts <b>8</b></h3><p>Soft ricotta with toasted nuts.</p></div></article>
+          <article class="menu-item"><div class="menu-item-art art-coffee" aria-hidden="true"><span></span></div><div><h3>Affogato <b>6</b></h3><p>Vanilla gelato and hot espresso.</p></div></article>
+        </div></section>
+        <section class="menu-category menu-category--wine" id="wine-menu"><div class="menu-category-title"><span>04 / By the glass</span><h2>Wine</h2></div><div class="menu-wine-list">
+          <div><h3>Orange <small>Friuli · Skin-contact white</small></h3><b>9</b></div><div><h3>Pét-nat <small>Loire · Lightly sparkling</small></h3><b>10</b></div><div><h3>Light red <small>Etna · Served cool</small></h3><b>11</b></div>
+        </div></section>
+      </div>
+      <section class="menu-cta section-pad"><h2>There's always<br/><em>room for one more.</em></h2><p>Ready to sit down?</p><a class="pill-button" href="/reservations">Book a table ↗</a></section>
+    </section>
+
+    <section id="reservations-page" data-page="/reservations" class="page" hidden>
+      <section class="interior-hero reservation-hero section-pad"><span class="section-label"><span class="dot"></span> Reservations</span><h1 class="display-heading">Pull up<br/><em>a chair.</em></h1><p>Bookings are requested up to 30 days in advance, for one to eight people. Walk-ins are also welcome.</p></section>
+      <section class="booking-section section-pad">
+        <div class="booking-aside"><h2>Your table</h2><p>Lunch: Tuesday–Sunday<br/>Dinner: Tuesday–Saturday</p><p class="small-note">Booking requests require an email delivery integration. No table is confirmed without a response from the restaurant.</p></div>
+        <form class="form-card" id="booking-form" data-form="booking" novalidate>
+          <h2>Request a table</h2><div class="form-grid">
+            <label>Date<input name="date" id="booking-date" type="date" required /></label>
+            <label>Time<select name="time" required><option value="">Choose a time</option><option>12:00</option><option>12:30</option><option>13:00</option><option>13:30</option><option>14:00</option><option>14:30</option><option>18:00</option><option>18:30</option><option>19:00</option><option>19:30</option><option>20:00</option><option>20:30</option><option>21:00</option></select></label>
+            <label>Guests<select name="guests" required><option value="">Choose guests</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label>
+            <label>Phone<input name="phone" type="tel" autocomplete="tel" placeholder="Phone number" required /></label>
+            <label>Name<input name="name" autocomplete="name" placeholder="Your name" required /></label>
+            <label>Email<input name="email" type="email" autocomplete="email" placeholder="you@example.com" required /></label>
+            <label class="form-full">Notes<textarea name="notes" rows="3" placeholder="Accessibility needs, allergies or a special occasion"></textarea></label>
+          </div>
+          <button type="submit" class="pill-button">Request a table ↗</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+      <section class="private-section section-pad" id="private">
+        <div class="private-art" aria-label="Abstract illustration of a communal dining table" role="img"><span class="private-table"></span><i></i><i></i><i></i><i></i></div>
+        <div class="private-content"><span class="section-label"><span class="dot"></span> Private dining</span><h2 class="display-heading">The long<br/><em>table.</em></h2><p>Bring your favorite people together. Our shared table welcomes groups up to eighteen.</p>
+          <form id="private-form" data-form="private" class="private-form" novalidate>
+            <label>Name<input name="name" autocomplete="name" required placeholder="Your name" /></label>
+            <label>Email<input name="email" type="email" autocomplete="email" required placeholder="you@example.com" /></label>
+            <label>Preferred date<input name="date" type="date" required /></label>
+            <label>Guests<select name="guests" required><option value="">Choose guests</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option></select></label>
+            <label class="form-full">Your plans<textarea name="message" rows="3" required placeholder="Tell us about your dinner"></textarea></label>
+            <button class="pill-button pill-button--light" type="submit">Send enquiry ↗</button><p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="footer">
+    <div class="footer-newsletter"><span class="section-label section-label--light"><span class="dot"></span> Stay in the loop</span><div><h2>The weekly menu,<br/><em>in your inbox.</em></h2><p>One little email with what's fresh this week.</p></div>
+      <form data-form="newsletter" id="newsletter-form" novalidate><label class="sr-only" for="newsletter-email">Email address</label><div class="email-entry"><input id="newsletter-email" name="email" type="email" autocomplete="email" placeholder="Your email address" required /><button type="submit" aria-label="Subscribe to weekly menu">Subscribe ↗</button></div><p class="form-status" role="status" aria-live="polite"></p></form>
+    </div>
+    <div class="footer-bottom"><div class="footer-links"><a href="/menu">Menu</a><a href="/reservations">Book a table</a><a href="/reservations#private">Private dining</a></div><a href="/" class="footer-logo">ruota.</a><div class="footer-meta"><span>Independent reference-inspired build · not the official restaurant website</span><span>© <span id="current-year">2026</span> Ruota concept</span></div></div>
+  </footer>
+  <script src="/app.js" defer></script>
+</body>
+</html>
