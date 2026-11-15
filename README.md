@@ -71,3 +71,10 @@ See \`docs/REFERENCE_AUDIT.md\` for route and interaction inventory, unresolved 
 4. Use screenshots at 320/375/430/768/1024/1440/1920/2560 widths to measure and fix layout and motion differences.
 5. Test Chromium, WebKit, Firefox, touch, keyboard, form delivery, performance and reduced motion.
 6. Set final canonical URL and sitemap, then publish only after deployment checks.
+
+
+## Latest execution limitation
+
+The connected Vercel integration returned HTTP **403 forbidden** when creating the \`ruoto-portfolio\` project, including when explicitly selecting the connected \`team-vs\` team. A Vercel CLI fallback is not available in the current execution environment. The GitHub source commits have succeeded, but **there is no verified Vercel deployment URL**. A Vercel team administrator must enable project creation/import for the connection or import this repository manually before production verification can continue.
+
+Additionally, production submission forms require anti-spam/rate-limiting and a privacy/retention policy before handling real visitors' personal data.
